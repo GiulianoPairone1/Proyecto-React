@@ -1,0 +1,61 @@
+
+
+.swiperSlide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  margin: auto;
+  border: solid 1px black;
+  border-radius: 0%;
+
+}
+
+.swiperSlide:nth-child(1) {
+  background-color: rgb(206, 17, 17);
+
+}
+
+.swiperSlide:nth-child(2) {
+  background-color: rgb(0, 140, 255);
+}
+
+.swiperSlide:nth-child(3) {
+  background-color: rgb(10, 184, 111);
+  
+}
+
+.swiperSlide:nth-child(4) {
+  background-color: rgb(211, 122, 7);
+}
+
+.swiperSlide:nth-child(5) {
+  background-color: rgb(118, 163, 12);
+}
+
+.swiperSlide:nth-child(6) {
+  background-color: rgb(180, 10, 47);
+}
+
+.swiperSlide:nth-child(7) {
+  background-color: rgb(35, 99, 19);
+}
+
+.swiperSlide:nth-child(8) {
+  background-color: rgb(0, 68, 255);
+}
+
+.swiperSlide:nth-child(9) {
+  background-color: rgb(218, 12, 218);
+}
+
+.swiperSlide:nth-child(10) {
+  background-color: rgb(54, 94, 77);
+}
+
+.swiper-slide img {
+  /* Estilos para las imágenes dentro de los slides */
+}

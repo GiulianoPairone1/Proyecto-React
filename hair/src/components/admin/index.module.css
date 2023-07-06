@@ -1,0 +1,39 @@
+.main {
+  color: rgb(0, 0, 0);
+  background-color: rgb(241, 241, 241);
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.Container{
+  width: 100%;
+}
+.mainDark{
+  background-color: rgb(136, 136, 136);
+  color: #fff !important;
+}
+.title{
+  text-align: center;
+ 
+}
+.AdminContainer {
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    contain: content;
+    background-color: rgb(229, 229, 230);
+}
+.AdminContainerDark {
+
+  -webkit-text-stroke: 1px white;
+    background-color: rgb(58, 58, 58) !important;
+}

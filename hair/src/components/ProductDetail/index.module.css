@@ -1,0 +1,141 @@
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.imagesContainer{
+    
+    display: flex;
+    flex-direction: row;
+    contain: content;
+    overflow: auto;
+    height: 75%;
+    width: 40%;
+
+    /* background-color: red; */
+   
+}
+
+.mySwiper{
+    width: 500px;
+    height: 500px;
+}
+
+.containerimages{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #fff;
+    
+}
+.images{
+
+    width: 1000px;
+    height: 1000px;
+}
+.ProductDetail{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    background-color: rgb(201, 201, 201);
+    align-items: center;
+    justify-content: center;
+
+    
+    
+}
+.detailsContainer{
+    width: 55%;
+    margin: 30px 0px;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    
+    
+}
+.icontextProduct{
+    width: 50%;
+    background-color: #501a8d;
+    color: #fff;
+    border: solid 1px #a2a6bda9;
+    border-top: 0px;
+    border-bottom: 0px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px; 
+    transition: all ease .2s;
+    text-decoration: none;
+    
+   
+
+}
+
+.icontextProduct:hover{
+    
+    background-color: #a1aef5;
+    color: #303030;
+
+    
+
+}
+
+
+@media screen and  (max-width: 767px) {
+    .ProductDetail{
+        width: 1200px;
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        background-color: rgb(201, 201, 201);
+        align-items: center;
+        justify-content: center;
+    }
+    .detailsContainer{
+        width: 100%;
+        margin: 0px 0px;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        align-items: center;
+        
+        
+    }
+    .containerimages{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+        overflow-x: auto;
+        background: #fff;
+        
+    }
+    .imagesContainer{
+    
+        display: flex;
+        flex-direction: row;
+        contain: content;
+        overflow: auto;
+        height: 75%;
+        width: 100%;
+    
+        /* background-color: red; */
+       
+    }
+    
+    
+  }
+  @media screen and (max-width: 480px) {
+    /* Estilos para dispositivos móviles */
+   
+  }

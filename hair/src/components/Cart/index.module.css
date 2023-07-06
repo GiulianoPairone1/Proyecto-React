@@ -1,0 +1,151 @@
+.cart {
+    background: #000000e6;
+    display: none;
+    padding: 32px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 300px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 100px;
+    
+  }
+  
+  .cart img {
+    aspect-ratio: 0.5;
+    width: 100%;
+    height: 200px;
+    max-width: 400px;
+    
+  }
+  .cart ul{
+    padding: 0;
+  }
+  .cart  li {
+    border-bottom: 1px solid #b9b9b9;
+    padding-bottom: 16px;
+    list-style: none;
+    margin-top: 20px;
+    
+  }
+  .cart li div strong{
+    width: 100%;
+    
+  }
+  .cart li div{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart footer {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cart footer button {
+    padding: 8px;
+  }
+  
+  .cartButton {
+    align-items: center;
+    background: #977db6;
+    border-radius: 9999px;
+    cursor: pointer;
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    padding: 4px;
+    right: 8px;
+    top: 8px;
+    transition: all .3s ease;
+    width: 50px;
+    color: #fff;
+    border: 1px solid #fff;
+   
+  }
+  .label{
+    height: 50px;
+  }
+  .cartClose{
+    align-items: center;
+    background: rgb(255, 38, 0);
+    border-radius: 9999px;
+    cursor: pointer;
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    padding: 4px;
+    right: 8px;
+    top: 8px;
+    width: 32px;
+    position: absolute;
+    right: 20px;
+    margin: 10px;
+
+  }
+  
+  /* .label:hover, .cartClose:hover {
+    scale: 1.1;
+  } */
+  
+  .cart {
+    height: 100%;
+    display: block;
+    z-index: 13000;
+    
+  }
+
+  .removeFromCart{
+   position: relative;
+    background: #000000a6;
+    top: 40px;
+    float: left;
+    border: none;
+    padding: 7px 7px;
+    border-radius: 0 0 50px;
+    color: red;
+    font-size: 20px;
+  
+    cursor: pointer;
+    z-index: 999;
+  }
+  .numberCart{
+    position: relative;
+    /* margin: 10px; */
+    color: white;
+    left: 40px;
+    bottom: 5px;
+    background: #977db6;
+    border-radius: 50%;
+    padding: 0 5px;
+    border: 1px solid #fff;
+    width: max-content;
+
+  }
+  .containerMotion{
+    height: 100%;
+  }
+  .total{
+    display: flex;
+    background-color: #353535;
+    height: 10%;
+    position: sticky;
+    color: #fff;
+    z-index: 999;
+    border-radius: 10px 10px 0 0;
+    bottom: 0px;
+    width: 100%;
+    left: 0;
+    /* page-break-after: always; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .containerItems{
+    height: 100%;
+    margin-right: 20px;
+    /* margin-bottom: 100px; */
+  }

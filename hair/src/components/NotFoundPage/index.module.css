@@ -1,0 +1,17 @@
+.NotFound {
+    height: 100vh;
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  .title {
+    font-size: 36px;
+    color: #501a8d;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #333333;
+    padding-top: 15px;
+  }
+  

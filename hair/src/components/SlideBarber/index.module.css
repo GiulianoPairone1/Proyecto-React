@@ -1,0 +1,159 @@
+.containerSlide{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.SwiperSlide{
+    display: flex;
+
+   
+    
+}
+.SwiperSlide img{
+    width: 100vw;
+
+   
+    
+}
+
+.swiperBarber{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    
+    
+   
+}
+.title{
+    color: #fff;
+    font-size: 42px;
+    text-shadow: 1px 1px 10px #000;
+
+}
+.textSlide{
+    color: #fff;
+    font-size: 22px;
+    text-shadow: 1px 1px 5px #000;
+}
+.containerText{
+    width: 50%;
+    text-shadow: 1px 1px 10px #000;
+    background-color: #00000050;
+    padding: 30px;
+    border: solid 1px #c0c0c0;
+    background: rgba(0, 0, 0, 0.466);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    /* backdrop-filter: blur(5px); */
+    border: 1px solid rgba(0, 0, 0, 0.36);
+    
+}
+.container1{
+  
+   
+    align-self: flex-end;
+    border-radius: 0 50px 0px 0px;
+    border-left: 0;
+    border-bottom: 0;
+    
+    
+}
+/* .container2{
+    width: 50%;
+    align-self: flex-end;
+    margin: auto;
+    margin-bottom: 0;
+    border-radius: 50px 50px 0px 0px;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    text-align: center;
+} */
+.container3{
+    margin-bottom: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    text-align: center;
+    text-decoration: none;
+    
+
+}
+.swiper1{
+    background-image: url("https://www.bdksistemas.com.mx/build/img/BDKBARBER/Fondo_Barber_1.jpg");
+    align-self: left;
+
+}
+.swiper3{
+    background-image: url("https://ath2.unileverservices.com/wp-content/uploads/sites/11/2021/09/21203721/lineas-en-el-pelo-5.jpg")
+    
+}
+.swiper2{
+    background-image: url("https://media.gq.com.mx/photos/61685921f3d2ed61e46cae88/16:9/w_2560%2Cc_limit/barberia-1159984175.jpg")
+}
+.social{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: space-around;
+    height: 150px;
+    filter: drop-shadow(5px 5px 10px #000);
+    border-radius: 20px;
+    flex-wrap: wrap;
+   
+    
+}
+.facebook{
+    color: rgb(0, 4, 255);
+    font-size: 50px;
+}
+.twitter{
+    color: rgb(0, 183, 255);
+    font-size: 50px;
+}
+.instagram{
+    color: rgb(212, 0, 255);
+    font-size: 50px;
+}
+.socialItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-around;
+
+   
+}
+
+
+@media screen and (max-width: 480px) {
+    /* Estilos para dispositivos móviles */
+  }
+  
+  /* Consulta de medios para tablets y dispositivos de tamaño medio */
+  @media screen and (max-width: 767px) {
+    .containerText{
+        width: 100%;
+        
+        
+    }
+  }
+  
+  /* Consulta de medios para pantallas de escritorio y laptops */
+  @media screen and  (max-width: 1023px) {
+    .title{
+        color: #fff;
+        font-size: 32px;
+        text-shadow: 1px 1px 10px #000;
+    
+    }
+    .textSlide{
+        color: #fff;
+        font-size: 18px;
+        text-shadow: 1px 1px 5px #000;
+    }
+  }
