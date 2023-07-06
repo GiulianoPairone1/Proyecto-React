@@ -1,0 +1,10 @@
+MONGO_URI = mongodb+srv://valentifranco:pOI6TEl1Bxhmqln8@cluster0.wqsoj0s.mongodb.net/barberShop?retryWrites=true&w=majority
+
+JWT_SECRET = palabraSECRETA
+
+FRONTEND_URL=http://localhost:3000
+
+EMAIL_USER=0522691d0180aa
+EMAIL_PASS=f1d73c8b305daa
+EMAIL_HOST=smtp.mailtrap.io
+EMAIL_PORT=2525
